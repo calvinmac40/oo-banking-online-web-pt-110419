@@ -82,7 +82,7 @@ end
 #   end
 # end
 
-instead of if @sender.balance > @amount && @status == "pending"
-User avatar
-John Chriest 9 MINUTES AGO
-try if valid? && @sender.balance > @amount && @status == "pending"
+# instead of if @sender.balance > @amount && @status == "pending"
+# User avatar
+# John Chriest 9 MINUTES AGO
+# try if valid? && @sender.balance > @amount && @status == "pending"

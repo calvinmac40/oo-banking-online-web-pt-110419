@@ -32,6 +32,7 @@ class Transfer
       @receiver.balance -= @amount
       @sender.balance += @amount
       @status = "reversed"
+      binding.pry
     end
   end
 end

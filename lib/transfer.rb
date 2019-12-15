@@ -28,11 +28,11 @@ class Transfer
   end
   
   def reverse_transfer
-    if @status == "rejected"
-      @receiver.balance -= @amount
-      @sender.balance += @amount
-      @status = "reversed"
-      binding.pry
+    if  @status == "rejected"
+        @receiver.balance -= @amount
+        @sender.balance += @amount
+        @status = "reversed"
+        binding.pry
     end
   end
 end
